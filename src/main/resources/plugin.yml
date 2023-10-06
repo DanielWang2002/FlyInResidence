@@ -1,0 +1,15 @@
+name: FlyInResidence
+version: ${project.version}
+main: mc.danielwang.flyinresidence.FlyInResidence
+api-version: 1.16
+depend: [ Residence ]
+authors: [ DanielWang ]
+description: type /fr then you can fly in your residence
+commands:
+  rf:
+    description: fly
+  rfadmin:
+    description: rfadmin
+  rft:
+    description: rft
+    aliases: rftime
